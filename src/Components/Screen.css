@@ -1,0 +1,98 @@
+.screen{
+    display: flex;
+    flex-flow: row;
+}
+
+.settings{
+    /* width: 30%; */
+    border-right: 1px solid rgb(224, 224, 224);
+    flex-grow: 2;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;  
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.screen-btn{
+    margin-bottom: 20%;
+    border: solid rgb(39, 31, 224);
+    padding: 15px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(39, 31, 224);
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+}
+
+.screen-btn:hover{
+    border: solid rgb(39, 31, 224);
+    color: rgb(39, 31, 224);
+    background-color: transparent;
+}
+.stop{
+    background-color: #FF2400;
+    border: solid #FF2400;
+}
+
+.stop:hover{
+    background: transparent;
+    border: solid #FF2400;
+    color: #FF2400;
+}
+
+.mic{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.preview{
+    width: 50%;
+    flex-grow: 2;
+    padding: 5% 5%;
+    overflow-y: scroll;
+    height: 75vh;
+    max-height: 100vh;
+}
+
+/* .preview::-webkit-scrollbar {
+    display: none;
+} */
+
+.preview-video{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.download-btn{
+    border: solid #008000;
+    margin-top: 60px;
+    width: 30%;
+    padding: 15px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    background-color: #008000;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.download-btn:hover{
+    border: solid #008000;
+    color: #008000;
+    background-color: transparent;
+}
+
+.disable{
+    pointer-events: all;
+    opacity: 0.5;
+    cursor: not-allowed;
+    box-shadow: none;
+}

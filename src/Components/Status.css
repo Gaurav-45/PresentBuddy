@@ -1,0 +1,21 @@
+.status{
+    background-color: rgb(37, 37, 37);
+    padding: 5%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgb(69, 97, 128) 0px 20px 30px -10px;
+    margin-bottom:8%;
+}
+
+.text h3{
+    color: wheat;
+}
+
+.text p{
+    color: rgb(150, 150, 150);
+}
+
+.timer{
+    color: red;
+    font-size: 26px;
+}
